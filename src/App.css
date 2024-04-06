@@ -117,7 +117,7 @@ body{
   background-color: rgb(231, 231, 231);
   width: 100%;
   height: 100vh;
-  padding-top: 200px;
+  padding-top: 5em;
 }
 
 .section-one h2{
@@ -178,7 +178,6 @@ body{
   height: 100vh;
   border-radius: 80% 80% 80% 80%;
   margin-bottom: 2em;
-  margin-top: 2em;
 }
 
 /* Div de los articulos */
@@ -252,9 +251,204 @@ body{
   width: 80%;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* SECTION MAIN COMPONENTS */
+.container-component--main{
+  display: flex;
+  justify-content: center;
+}
+.section-main{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 90%;
+  background-color: aliceblue;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+  -5px 0px 5px 0px rgba(0, 0, 0, 0.2); 
+  background-image: url(./img/curva.png); /* URL de la imagen de fondo */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: 60%; 
+}
+.articles-main--left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  width: 50%;
+}
+.main-title{
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  margin-left: 7em;
+  text-align: left;
+  width: 100%;
+  font-size: 3em;
+}
+.main-text{
+  text-align: left;
+  margin-bottom: 3em;
+  margin-left: 9em;
+  width: 80%;
+  font-size: 1.5em;
+}
+.articles-main--right{
+  width: 50%;
+}
+.art-main{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 9em;
+  margin-top: 25%;
+}
+.mainlogo-picture{
+  background-color: rgba(6, 188, 255, 0.5);
+  border-radius: 40% 40% 40% 40%;
+  margin-top: 2em;
+}
+.mainlogo-picture:hover{
+  animation: animacionImagen 3s infinite alternate;
+}
+@keyframes animacionImagen {
+  0% {
+    transform: scale(1); 
+  }
+  100% {
+    transform: scale(1.07); 
+  }
+}
+
+.cssbuttons-io-button {
+  background:  #0091ff;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em  #0091ff;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+  margin-left: 5em;
+}
+/* El boton de main */
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em  #0091ff;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #000000;
+}
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
 /* Footer */
 .ending{
   display: flex;
   justify-content: space-around;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(11, 87, 211);
+  height: 25vh;
+  color: aliceblue;
+  border-radius: 1% 1% 0% 0%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.container-footer{
+  display: flex;
+  /* background-color: rgb(180, 203, 241); */
+  height: 100%;
+  width: 100%;
+}
+.footer-box-one{
+  /* background-color: rgb(255, 4, 4); */
+  height: 100%;
+  width: 25%;
+  padding: 0.6em;
+  margin-left: 1em;
+}
+.footer-box-two{
+  /* background-color: rgb(230, 255, 4); */
+  height: 100%;
+  width: 25%;
+  padding: 1em;
+}
+.footer-box-three{  
+  /* background-color: rgb(4, 255, 25); */
+  height: 100%;
+  width: 25%;
+  padding: 1em;
+}
+.footer-box-four{
+  /* background-color: rgb(200, 19, 179); */
+  height: 100%;
+  width: 25%;
+  padding: 1em;
+}
+
+.button-footer {
+  appearance: none;
+  background-color: aliceblue;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  margin-top: 0.6em;
+  min-height: 2.7em;
+  min-width: 0;
+  outline: none;
+  padding: 0.3em 2.7em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+.button-footer:disabled {
+  pointer-events: none;
+}
+.button-footer:hover {
+  color: #ffffff;
+  background-color: #939393;
+  box-shadow: rgba(1, 149, 255, 0.3) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-footer:active {
+  box-shadow: none;
+  transform: translateY(0);
 }

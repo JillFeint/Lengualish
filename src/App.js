@@ -5,7 +5,8 @@ import Section1 from './components/section1';
 import Section2 from './components/section2';
 import Footer from './components/footer';
 import Login from './components/login/login';
-// import RegisterModal from './components/register/registermodal';
+import SectionMain from './components/sectionMain';
+
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="container12">
     {!showLogin && <Header onUsuariosClick={handleUsuariosClick} />}
+    {!showLogin && <SectionMain />}
     {!showLogin && <Section1 />}
     {!showLogin && <Section2 />}
     {!showLogin && <Footer />}

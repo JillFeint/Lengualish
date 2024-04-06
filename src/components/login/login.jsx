@@ -1,6 +1,8 @@
 import React from 'react'
 import './loginmodal.css'
 import cocologin from '../../img/cocoright.jpg'
+import RegisterModal from '../register/registermodal';
+
 
 export default function Login() {
   function startLogin(event){
@@ -40,8 +42,8 @@ export default function Login() {
     <form onSubmit={startLogin}>
       <div className="top-btns">
         <a className="btn-subRes btn-subResRight" href="./index.html"><span>Ingreso</span></a>
-        <a className="btn-subRes btn-subResLeft" href="./registroModal.html"><span>Registrarse</span></a>
-        <br/>
+        <a className="btn-subRes btn-subResLeft" href={RegisterModal}><span>Registrarse</span></a>
+<br/>
       </div>
       <h2 className="title-form">Ingreso a la plataforma</h2>
       <div className="inputs-dimension">
