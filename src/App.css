@@ -374,7 +374,7 @@ body{
 .ending{
   display: flex;
   justify-content: space-around;
-  background-color: rgb(11, 87, 211);
+  background-color: #0091ff;
   height: 25vh;
   color: aliceblue;
   border-radius: 1% 1% 0% 0%;
@@ -416,7 +416,7 @@ body{
   appearance: none;
   background-color: aliceblue;
   border: 0.125em solid #1A1A1A;
-  border-radius: 0.9375em;
+  border-radius: 0.3em;
   box-sizing: border-box;
   color: #000000;
   cursor: pointer;
@@ -451,4 +451,30 @@ body{
 .button-footer:active {
   box-shadow: none;
   transform: translateY(0);
+}
+.title-leng{
+  margin-top: 1em;
+}
+.copy-h{
+  margin-top: 0.8em;
+  color: #b1abab;
+}
+.title-media{
+  margin-top: 1em;
+  color: #b1abab;
+}
+.title-legal{
+  margin-top: 1em;
+  color: #b1abab;
+}
+.title-tec{
+  margin-top: 1em;
+  color: #b1abab;
+}
+.end-h6{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1.5em;
+  color: #b1abab;
 }

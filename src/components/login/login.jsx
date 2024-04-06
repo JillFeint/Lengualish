@@ -40,10 +40,11 @@ export default function Login() {
     </div>
     <div className="form">
     <form onSubmit={startLogin}>
-      <div className="top-btns">
-        <a className="btn-subRes btn-subResRight" href="./index.html"><span>Ingreso</span></a>
-        <a className="btn-subRes btn-subResLeft" href={RegisterModal}><span>Registrarse</span></a>
-<br/>
+    <div className="top-btns">
+        <label className="switchFall">
+          <input type="checkbox"/>
+          <span className="sliderFall"></span>
+        </label>
       </div>
       <h2 className="title-form">Ingreso a la plataforma</h2>
       <div className="inputs-dimension">
