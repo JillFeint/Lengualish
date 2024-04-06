@@ -1,0 +1,63 @@
+/*Cambiar por estos input https://uiverse.io/alexruix/slippery-snail-18 */
+.form-format{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.inputs-dimension-register{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.inputs-dimension-registerR{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.input-left{
+  margin-right: 2.1em;
+  border-color: rgb(34, 199, 249);
+}
+.input-right{
+  margin-left: 2.5em;
+  border-color: rgb(34, 199, 249);
+}
+.labels-register{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.place-left{
+  align-content: center;
+  background-color: rgb(0, 127, 162);
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50% 0% 0% 0%;
+}
+.place-right{
+  align-content: center;
+  background-color: rgb(0, 127, 162);
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0% 0% 50% 0%;
+}
+.title-form-righ{
+  color: rgb(90, 156, 214, 0);
+}
+
+.btns-register{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Posicionamiento de los botones, para que queden lineales */
+#city-input--modal-send{
+  margin-bottom:2.7em;
+}
+#login-input--modal--send{
+  margin-bottom: 2em;
+}
