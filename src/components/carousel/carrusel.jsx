@@ -54,48 +54,62 @@ export default function Carrusel() {
 
     return (
         <>
-        <div className="body-carrusel">
+        <section className="section-carrusel">
             <div className='wrapper' ref={wrapperRef}>
                 <ul className="carousel" ref={carouselRef}>
                     <li className="card">
                         <div className="card-img"><img src={cocoright} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
-                        <button class="full-rounded">
-                            <span>Hover me</span>
-                            <div class="border full-rounded"></div>
-                        </button>
+                        <div className='div-button-card'>
+                            <button className="button-card">Button</button>
+                        </div>
                     </li>
                     <li className="card">
                         <div className="card-img"><img src={crobootsderech} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
+                        <div className='div-button-card'>
+                            <button className="button-card">Button</button>
+                        </div>
                     </li>
                     <li className="card">
                         <div className="card-img"><img src={logoboots} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
+                        <div className='div-button-card'>
+                            <button className="button-card">Button</button>
+                        </div>
                     </li>
                     <li className="card">
                         <div className="card-img"><img src={crobootsderech} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
+                        <div className='div-button-card'>
+                            <button className="button-card">Button</button>
+                        </div>
                     </li>
                     <li className="card">
                         <div className="card-img"><img src={cocoright} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
+                        <div className='div-button-card'>
+                            <button className="button-card">Button</button>
+                        </div>
                     </li>
                     <li className="card">
                         <div className="card-img"><img src={logoboots} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
+                        <div className='div-button-card'>
+                            <button className="button-card">Button</button>
+                        </div>
                     </li>
                 </ul>
                 <i id="left" className="fa-solid fa-angle-left" onClick={() => scrollCarousel('left')}></i>
                 <i id="right" className="fa-solid fa-angle-right" onClick={() => scrollCarousel('right')}></i>
             </div>
-        </div>
+        </section>
         </>
     );
 }

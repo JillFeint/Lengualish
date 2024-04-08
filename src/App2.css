@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body-carrusel{
+.section-carrusel{
     display: flex;
-    padding: 0 35px;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;  
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 100vh;
+    padding-top: 5em;
     min-height: 100vh;
 }
 .wrapper {
@@ -91,6 +95,28 @@
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
+}
+.div-button-card {
+    margin-top: 1em;
+}
+.button-card {
+    padding: 10px 20px; 
+    border: 1px solid #bbb;
+    color: #222;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    transition: all 0.3s ease; 
+    box-sizing: border-box; 
+    background-color: #FFF; 
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; 
+}
+.button-card:hover {
+    background-color: #007ffe;
+    color: #fff; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+    transform: scale(1.05);
 }
 .carousel .card h2 {
     font-weight: 500;
