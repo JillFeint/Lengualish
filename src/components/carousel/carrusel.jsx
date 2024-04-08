@@ -61,6 +61,10 @@ export default function Carrusel() {
                         <div className="card-img"><img src={cocoright} draggable="false"/></div>
                         <h2>Blanche Pearson</h2>
                         <span>Sales Manager</span>
+                        <button class="full-rounded">
+                            <span>Hover me</span>
+                            <div class="border full-rounded"></div>
+                        </button>
                     </li>
                     <li className="card">
                         <div className="card-img"><img src={crobootsderech} draggable="false"/></div>
@@ -91,7 +95,7 @@ export default function Carrusel() {
                 <i id="left" className="fa-solid fa-angle-left" onClick={() => scrollCarousel('left')}></i>
                 <i id="right" className="fa-solid fa-angle-right" onClick={() => scrollCarousel('right')}></i>
             </div>
-            </div>
+        </div>
         </>
     );
 }

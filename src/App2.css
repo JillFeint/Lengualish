@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to left top,white, #0091ff);
 }
 .wrapper {
     max-width: 1100px;

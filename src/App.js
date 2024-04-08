@@ -9,8 +9,6 @@ import Login from './components/login/login';
 import SectionMain from './components/sectionMain';
 import Carrusel from './components/carousel/carrusel';
 
-
-
 function App() {
   const [showLogin, setShowLogin] = useState(false);
 
@@ -22,7 +20,7 @@ function App() {
     {!showLogin && <Header onUsuariosClick={handleUsuariosClick} />}
     {!showLogin && <SectionMain />}
     {!showLogin && <Section1 />}
-    <Carrusel />
+    {!showLogin && <Carrusel />}
     {!showLogin && <Section2 />}
     {!showLogin && <Footer />}
     {showLogin &&   <Login />}
