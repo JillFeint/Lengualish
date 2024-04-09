@@ -32,12 +32,12 @@ body{
   padding-right: 50px;
 }
 /* Titulo grande */
-.voca-text{
-  font-family: "Permanent Marker", cursive;
-  text-align: center;
-  font-size: 8vh;
-  color: rgb(85, 192, 228);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+.logo-header{
+  width: 14em;
+  height: 5em;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
 }
 .navegator-link{
   display: flex;
@@ -372,14 +372,96 @@ body{
 }
 
 /* Footer */
+.divBolitasFfb400{
+  width: 100%;
+  height: 10em;
+  display: flex;
+  background-color: #00ABF4;
+}
+.divFondoOne{
+  width: 18%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  z-index: 2;
+}
+.divBolitasOne {
+  margin-top: 13%;
+  width: 100%;
+  height: 80%;
+  background-color: #00ABF4;
+}
+.divFondoTwo{
+  width: 18%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  z-index: 2;
+}
+.divBolitasTwo {
+  width: 100%;
+  height: 80%;
+  margin-top: 13%;
+  background-color: #00ABF4;
+  border-radius: 0 69% 0 0;
+  overflow: hidden; /* Para aplicar el color de fondo solo al contenido del div */
+  z-index: 3;
+}
+.divFondoThree {
+  width: 28%;
+  height: 100%;
+  z-index: 2;
+}
+.divBolitasThree {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0 0 3em 3em;
+  overflow: hidden; /* Para aplicar el color de fondo solo al contenido del div */
+  z-index: 3;
+}
+.imgFooter {
+  width: auto;
+  height: auto;
+}
+.divFondoFour{
+  width: 18%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  z-index: 2;
+}
+.divBolitasFour {
+  width: 100%;
+  height: 80%;
+  margin-top: 13%;
+  background-color: #00ABF4;
+  border-radius: 68% 0 0 0;
+  overflow: hidden; /* Para aplicar el color de fondo solo al contenido del div */
+  z-index: 3;
+}
+.divFondoFive{
+  width: 18%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  z-index: 2;
+}
+.divBolitasFive {
+  margin-top: 13%;
+  width: 100%;
+  height: 80%;
+  background-color: #00ABF4;
+}
+
+
+/* Footer */
 .ending{
   display: flex;
   justify-content: space-around;
-  background-color: #0091ff;
-  height: 25vh;
+  background-color: #00ABF4;
+  height: 30vh;
   color: aliceblue;
-  border-radius: 1% 1% 0% 0%;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  /* border-radius: 1% 1% 0% 0%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); */
 }
 .container-footer{
   display: flex;
@@ -387,95 +469,237 @@ body{
   height: 100%;
   width: 100%;
 }
+.footer-box-cero{
+  height: 100%;
+  width: 9%;
+}
 .footer-box-one{
   /* background-color: rgb(255, 4, 4); */
   height: 100%;
-  width: 25%;
+  width: 30%;
   padding: 0.6em;
-  margin-left: 1em;
+  margin-right: 4em;
+  margin-left:2px;
 }
 .footer-box-two{
   /* background-color: rgb(230, 255, 4); */
   height: 100%;
-  width: 25%;
+  width: 12%;
   padding: 1em;
+  margin-right: 4em;
 }
 .footer-box-three{  
   /* background-color: rgb(4, 255, 25); */
   height: 100%;
-  width: 25%;
+  width: 12%;
   padding: 1em;
+  margin-right: 4em;
 }
 .footer-box-four{
   /* background-color: rgb(200, 19, 179); */
   height: 100%;
-  width: 25%;
+  width: 17%;
   padding: 1em;
 }
-
+.footer-box-five{
+  height: 100%;
+  width: 7%;
+}
 .button-footer {
-  appearance: none;
-  background-color: aliceblue;
-  border: 0.125em solid #1A1A1A;
-  border-radius: 0.3em;
-  box-sizing: border-box;
-  color: #000000;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 12px;
+  background-color: #fff;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
   font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  margin-top: 0.6em;
-  min-height: 2.7em;
-  min-width: 0;
-  outline: none;
-  padding: 0.3em 2.7em;
-  text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  will-change: transform;
+  cursor: pointer;
+  border: 1px solid #0091ff;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #0091ff;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  margin-top: 1em;
 }
-.button-footer:disabled {
-  pointer-events: none;
+
+.button-footer svg {
+  fill: #0091ff;
+  height: 25px;
+  width: 25px;
 }
+
+.button-footer span {
+  margin: 10px;
+}
+
+.button-footer::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
 .button-footer:hover {
-  color: #ffffff;
-  background-color: #939393;
-  box-shadow: rgba(1, 149, 255, 0.3) 0 8px 15px;
-  transform: translateY(-2px);
+  color: #fff;
+  background-color: #0091ff;
+  border: 1px solid #0091ff;
 }
-.button-footer:active {
-  box-shadow: none;
-  transform: translateY(0);
+
+.button-footer:hover svg {
+  fill: currentColor;
 }
+
+.button-footer:hover::before {
+  box-shadow: inset 0 0 0 10em #0163E0;
+}
+
 .title-leng{
   margin-top: 1em;
 }
 .copy-h{
   margin-top: 0.8em;
-  color: #b1abab;
+  color: #000000;
 }
 .title-media{
   margin-top: 1em;
-  color: #b1abab;
+  color: #000000;
 }
 .title-legal{
   margin-top: 1em;
-  color: #b1abab;
+  color: #000000;
 }
 .title-tec{
   margin-top: 1em;
-  color: #b1abab;
+  color: #000000;
+}
+.titleFooterOne {
+  margin-bottom: 1em;
+}
+.titleFooter{
+  color: aliceblue;
+}
+.titleInfoLengulish{
+
+  color: #000000;
 }
 .end-h6{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-top: 1.5em;
-  color: #b1abab;
+  color: #000000;
+}
+.titleEndCopy {
+  margin-top: 2em;
+}
+
+/* Footer redes */
+.footerRedes {
+  position: absolute;
+  width: 100%;
+  height: 4em;
+  background-color: #00ABF4;
+  /* border-top: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerWhatsapp, .footerFacebook, 
+.footerInstagram, .footerYoutube {
+width: 25%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* boton Whatsapp pie */
+.btnRedesWhatsapp {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  background: #075e54;
+  margin: 0 4px;
+}
+/* boton facebook pie */
+.btnRedesFacebook {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  background: #0079F1;
+  margin: 0 4px;
+}
+/* Boton Instagram */
+.btnRedesInstagram {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  margin: 0 4px;
+}
+
+/* boton youtube */
+.btnRedesYoutube {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+  background: #ff0000;
+  margin: 0 4px;
+}
+.footerRedesEspacio1, .footerRedesEspacio2 {
+  width: 6%;
 }

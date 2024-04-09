@@ -8,8 +8,7 @@ export default function SectionMain() {
     <section className='section-main'>
         <div className='articles-main--left'>
           <h2 className='main-title'>Habla idiomas con confianza</h2>
-            <p className='main-text'>Aprendizaje de idiomas a tu ritmo, con profesores de confianza.
-            </p> 
+            <p className='main-text'>Aprendizaje de idiomas a tu ritmo, con profesores de confianza.</p> 
             <button className="cssbuttons-io-button">
               Get started
               <div className="icon">

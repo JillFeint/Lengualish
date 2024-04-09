@@ -1,4 +1,5 @@
 import React from 'react';
+import lengualish from '../img/logo-lengualish.png'
 
 export default function Header({ onUsuariosClick }) {
   return (
@@ -34,7 +35,7 @@ export default function Header({ onUsuariosClick }) {
         </button>
       </div>
       <div className="navegator-logo">
-        <h1 className="voca-text">lengualish</h1>
+        <img className='logo-header' src={lengualish} />
       </div>
     </nav>
   );

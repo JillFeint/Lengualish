@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import Login from './components/login/login';
 import SectionMain from './components/sectionMain';
 import Carrusel from './components/carousel/carrusel';
+import FooterRedes from './components/footerRedes';
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -23,6 +24,7 @@ function App() {
     {!showLogin && <Section2 />}
     {!showLogin && <Section1 />}
     {!showLogin && <Footer />}
+    {!showLogin && <FooterRedes/>}
     {showLogin &&   <Login />}
   </div>
   );

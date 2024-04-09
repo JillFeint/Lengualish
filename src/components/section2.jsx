@@ -83,6 +83,7 @@ export default function Section2() {
           </article>
         </div>
       </section>
+      
     </>
   );
 }
