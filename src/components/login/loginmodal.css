@@ -72,6 +72,9 @@
   justify-content: end;
   margin-bottom: 2em;
 }
+.oculto-top-btns{
+  display: none;
+}
 .switchFall {
   position: relative;
   display: inline-block;

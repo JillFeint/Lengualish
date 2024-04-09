@@ -19,9 +19,9 @@ function App() {
     <div className="container12">
     {!showLogin && <Header onUsuariosClick={handleUsuariosClick} />}
     {!showLogin && <SectionMain />}
-    {!showLogin && <Section1 />}
     {!showLogin && <Carrusel />}
     {!showLogin && <Section2 />}
+    {!showLogin && <Section1 />}
     {!showLogin && <Footer />}
     {showLogin &&   <Login />}
   </div>

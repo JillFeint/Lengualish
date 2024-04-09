@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import './loginmodal.css'
 import cocologin from '../../img/cocoright.jpg'
 import RegisterModal from '../register/registermodal';
@@ -29,9 +30,15 @@ export default function Login() {
   }
   
   console.log("esta conectado")
+
+  const [resShowLogin, ResSetShowLogin] = useState(false);
+
+  const regisUsuariosClick = () => {
+    ResSetShowLogin(true);
+  };
   return (
 <>   
-<div className="container">
+<div className={`container ${resShowLogin ? 'oculto-top-btns' : ''}`}>
   <div className="modal-login">
     <div className="div-imagen--left">
       <div className="img-left">
@@ -42,7 +49,7 @@ export default function Login() {
     <form onSubmit={startLogin}>
     <div className="top-btns">
         <label className="switchFall">
-          <input type="checkbox"/>
+          <input type="checkbox" onClick={regisUsuariosClick}/>
           <span className="sliderFall"></span>
         </label>
       </div>
@@ -120,6 +127,7 @@ export default function Login() {
     </div>         {/* form */}
   </div>   {/* modal login */}
 </div> {/* contenedor */}
+{resShowLogin &&   <RegisterModal />}
 </>   
   )
 }
