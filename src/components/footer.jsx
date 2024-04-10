@@ -58,7 +58,6 @@
             <h5>Digital</h5>
             <h5>Automatizacion</h5>
             <h5>Inteligencia Artificial</h5>
-            <h5>loT</h5>
           </div>
         </div>
         <div className='footer-box-four'>
