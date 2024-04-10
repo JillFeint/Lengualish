@@ -9,6 +9,7 @@ import Login from './components/login/login';
 import SectionMain from './components/sectionMain';
 import Carrusel from './components/carousel/carrusel';
 import FooterRedes from './components/footerRedes';
+import Perfil from './components/usuario/perfil';
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -26,6 +27,7 @@ function App() {
     {!showLogin && <Footer />}
     {!showLogin && <FooterRedes/>}
     {showLogin &&   <Login />}
+    <Perfil />
   </div>
   );
 }
