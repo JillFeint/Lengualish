@@ -9,7 +9,7 @@ import Login from './components/login/login';
 import SectionMain from './components/sectionMain';
 import Carrusel from './components/carousel/carrusel';
 import FooterRedes from './components/footerRedes';
-import Perfil from './components/usuarios/perfil';
+import Perfil from './components/usuario/perfil';
 import ProfileUser from './components/userPerfil/profileUser';
 
 function App() {
