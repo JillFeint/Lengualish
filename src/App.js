@@ -11,6 +11,8 @@ import Carrusel from './components/carousel/carrusel';
 import FooterRedes from './components/footerRedes';
 import Perfil from './components/usuario/perfil';
 import ProfileUser from './components/userPerfil/profileUser';
+import Cursosgallery from './components/cursos/cursosgallery';
+import './components/cursos/cursosgallery.css'
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -26,6 +28,7 @@ function App() {
     {!showLogin && <Section2 />}
     <ProfileUser/>
     {!showLogin && <Section1 />}
+    <Cursosgallery/>
     {!showLogin && <Footer />}
     {!showLogin && <FooterRedes/>}
     {showLogin &&   <Login />}
