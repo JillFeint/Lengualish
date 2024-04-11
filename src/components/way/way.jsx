@@ -5,11 +5,11 @@ import './way.css'
 
 export default function Way() {
   return (
-    <>
-<header className='main-header'>
+<>
+  <header className='main-header'>
   1
-</header>
-<div className='way-container'>
+  </header>
+  <div className='way-container'>
   <aside className='way-aside--left'>
     <label className='way-label' htmlFor="">Rutas de aprendizaje</label>
     <button className="way-btns--left">Vocabulario</button>
@@ -33,8 +33,8 @@ export default function Way() {
     </div>
     <div className="way-presentation">aquí van las rutas</div>
   </aside>
-</div>
+  </div>
     <FooterRedes />
-    </>
+  </>
   )
 }

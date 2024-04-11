@@ -1,0 +1,80 @@
+.pqrs-section-one{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;  
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  height: 100vh;
+  padding-top: 5em;
+}
+.pqrs-section-one h2{
+  padding-top: 40px;
+}
+.pqrs-section-one p{
+  padding-bottom: 15px;
+}
+.pqrs-saber-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #06c8d9;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.pqrs-saber-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.pqrs-saber-button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+.pqrs-saber-button:hover span {
+  padding-right: 15px;
+}
+.pqrs-saber-button:hover span:after {
+  opacity: 1;
+  right: 0;
+} 
+.pqrs-articles{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 70%;
+  width: 80%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* Articulos */
+.pqrs-art-left{
+  margin-left: 50px;
+  /* background-color: blue; */
+}
+.pqrs-art-left p{
+  font-size: 40px;
+  padding-top: 20px;
+  /* background-color: brown; */
+  text-align: left;
+  font-size: 20vh;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font: oblique bold 120% cursive;
+}
+.pqrs-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
