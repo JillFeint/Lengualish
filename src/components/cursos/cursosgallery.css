@@ -1,0 +1,75 @@
+.cursosgallery-div-big {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  height: auto;
+}
+.cursosgallery-div-two{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+  width: 76%;
+  height: 80vh;
+  margin-bottom: 1em;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+  -5px 0px 5px 0px rgba(0, 0, 0, 0.2); 
+}
+.cursos-title{
+  margin: 0.5em;
+}
+.cursos-grid-container{
+  width: 99%;
+  height: 95%;
+  padding-left: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  gap: 20px;
+  justify-content: center;
+  background-color: transparent;
+  overflow-y: auto;
+}
+/* Estilos específicos para la barra de desplazamiento en navegadores WebKit en navegadores basados en WebKit (como Google Chrome y Safari)*/
+.cursos-grid-container::-webkit-scrollbar {
+  width: 0.5em; /* Ancho de la barra de desplazamiento */
+}
+.cursos-grid-container::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Color del pulgar de la barra de desplazamiento */
+}
+.cursos-grid-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Color de la pista de la barra de desplazamiento */
+}
+/* Estilos específicos para la barra de desplazamiento en navegadores Firefox */
+.cursos-grid-container {
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+  scrollbar-color: transparent transparent; /* Color del pulgar y la pista de la barra de desplazamiento */
+}
+.cursos-grid-item {
+  cursor: pointer;
+  width: 220px;
+  height: 170px;
+  object-fit: cover;
+  /* position: relative; */
+}
+.cursos-grid-hoverAll:hover {
+  filter: brightness(80%); /* Puedes ajustar este valor según tus preferencias */
+  /* transform: translateY(-5px); */
+}
+/* Text */
+.cursos-grid-item-text {
+  display: none; /* Ocultar por defecto */
+  position: relative;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 100;
+}
+.cursos-grid-item:hover .cursos-grid-item-text {
+  display: block; /* Mostrar cuando se pasa el cursor */
+}
