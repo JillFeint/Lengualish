@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import './App2.css'
+import './App2.css';
+import "./perfil.css";
 import Header from './components/header';
 import Section1 from './components/section1';
 import Section2 from './components/section2';

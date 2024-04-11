@@ -1,6 +1,7 @@
 import React from 'react'
 import cocologin from '../../img/cocoright.jpg'
 
+
 export default function Perfil() {
     return (
         <>
