@@ -11,6 +11,7 @@ import Carrusel from './components/carousel/carrusel';
 import FooterRedes from './components/footerRedes';
 import Perfil from './components/usuario/perfil';
 import ProfileUser from './components/userPerfil/profileUser';
+import './components/usuario/perfil.css'
 import Cursosgallery from './components/cursos/cursosgallery';
 import './components/cursos/cursosgallery.css'
 
@@ -28,11 +29,10 @@ function App() {
     {!showLogin && <Section2 />}
     <ProfileUser/>
     {!showLogin && <Section1 />}
-    <Cursosgallery/>
+    <Perfil/>
     {!showLogin && <Footer />}
     {!showLogin && <FooterRedes/>}
     {showLogin &&   <Login />}
-    <Perfil/>
   </div>
   );
 }
