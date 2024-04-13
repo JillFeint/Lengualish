@@ -17,8 +17,8 @@ export default function Pqrs() {
         <input type="text" className="pqrs-add" />
         <input type="text" className="pqrs-add" />
         <textarea className="pqrs-add--text"></textarea>
-        <button type='submit'>Enviar</button>
-        <button type='reset'>Limpiar</button>
+        <button className='pqrs-btns--sub' type='submit'>Enviar</button>
+        <button className='pqrs-btns--reset' type='reset'>Limpiar</button>
         {/* <button className='pqrs-saber-button'>
           <span>Saber mas</span>
         </button> */}

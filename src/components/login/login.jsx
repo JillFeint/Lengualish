@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
-import './loginmodal.css'
-import cocologin from '../../img/cocoright.jpg'
+import './loginmodal.css';
+import cocologin from '../../img/cocoright.jpg';
 import RegisterModal from '../register/registermodal';
+import Way from '../way/way'
+// import Pqrs from '../pqrs/pqrs'
 
 
 export default function Login() {
@@ -38,7 +40,7 @@ export default function Login() {
   };
   return (
 <>   
-<div className={`container ${resShowLogin ? 'oculto-top-btns' : ''}`}>
+  <div className={`container ${resShowLogin ? 'oculto-top-btns' : ''}`}>
   <div className="modal-login">
     <div className="div-imagen--left">
       <div className="img-left">
@@ -128,6 +130,8 @@ export default function Login() {
   </div>   {/* modal login */}
 </div> {/* contenedor */}
 {resShowLogin &&   <RegisterModal />}
+<Way />
+{/* <Pqrs /> */}
 </>   
   )
 }

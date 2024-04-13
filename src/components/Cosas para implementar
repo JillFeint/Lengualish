@@ -1,0 +1,43 @@
+// Respuestas de los examenes 
+ 
+//  <aside className='way-aside--right'>
+//     <img className='way-img--ningles' src={Ningles} alt="imagen niveles ingles " />
+//     <div className='way-div--btns'>
+//     <button className="way-btns--right" onClick={funcSwitchA1}>A1</button>
+//     <button className="way-btns--right" onClick={funcSwitchA2}>A2</button>
+//     <button className="way-btns--right" onClick={funcSwitchB1}>B1</button>
+//     <button className="way-btns--right" onClick={funcSwitchB2}>B2</button>
+//     <button className="way-btns--right" onClick={funcSwitchC1}>C1</button>
+//     </div>
+//     <div className="way-presentation">
+//       <p className={`way-text--a1 ${showA1Way ? 'way-hidden-text' : ''}`}>aquí van las ruta A1</p>
+//       <p className={`way-text--a2 ${showA2Way ? 'way-hidden-text' : ''}`}>aquí van las ruta A2</p>
+//       <p className={`way-text--b1 ${showB1Way ? 'way-hidden-text' : ''}`}>aquí van las ruta B1</p>
+//       <p className={`way-text--b2 ${showB2Way ? 'way-hidden-text' : ''}`}>aquí van las ruta B2</p>
+//       <p className={`way-text--c1 ${showC1Way ? 'way-hidden-text' : ''}`}>aquí van las ruta C1</p>
+//     </div>
+//   </aside>
+//   export default function Way() {
+//     const [showA1Way, switchA1Way] = useState(true);
+//     const [showA2Way, switchA2Way] = useState(true);
+//     const [showB1Way, switchB1Way] = useState(true);
+//     const [showB2Way, switchB2Way] = useState(true);
+//     const [showC1Way, switchC1Way] = useState(true);
+  
+  
+    
+//     const funcSwitchA1 = () => {
+//       switchA1Way(false);
+//     };
+//     const funcSwitchA2 = () => {
+//       switchA2Way(false);
+//     };
+//     const funcSwitchB1 = () => {
+//       switchB1Way(false);
+//     };
+//     const funcSwitchB2 = () => {
+//       switchB2Way(false);
+//     };
+//     const funcSwitchC1 = () => {
+//       switchC1Way(false);
+//     };
