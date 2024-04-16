@@ -1,26 +1,26 @@
 import React from 'react'
 import '../footerRedes'
 import FooterRedes from '../footerRedes'
-import Curso1 from '../cursos/coca1.jpg';
-import Curso2 from '../cursos/coca2.jpg';
-import Curso3 from '../cursos/coca3.jpg';
-import Curso4 from '../cursos/coca4.jpg';
-import Curso5 from '../cursos/coca5.jpg';
-import Curso6 from '../cursos/coca6.jpg';
-import Curso7 from '../cursos/coca7.jpg';
-import Curso8 from '../cursos/coca8.jpg';
-import Curso9 from '../cursos/coca9.jpg';
-import Curso10 from '../cursos/coca10.jpg';
-import Curso11 from '../cursos/coca11.jpg';
-import Curso12 from '../cursos/coca12.jpg';
-import Curso13 from '../cursos/proximamente.avif'
-import Curso14 from '../cursos/proximamente.avif'
-import Curso15 from '../cursos/proximamente.avif'
-import Curso16 from '../cursos/proximamente.avif'
-import Curso17 from '../cursos/proximamente.avif'
-import Curso18 from '../cursos/coca18.jpg';
-import Curso19 from '../cursos/coca19.jpg';
-import Curso20 from '../cursos/proximamente.avif'
+import Curso1 from '../../img/coca1.jpg';
+import Curso2 from '../../img/coca2.jpg';
+import Curso3 from '../../img/coca3.jpg';
+import Curso4 from '../../img/coca4.jpg';
+import Curso5 from '../../img/coca5.jpg';
+import Curso6 from '../../img/coca6.jpg';
+import Curso7 from '../../img/coca7.jpg';
+import Curso8 from '../../img/coca8.jpg';
+import Curso9 from '../../img/coca9.jpg';
+import Curso10 from '../../img/coca10.jpg';
+import Curso11 from '../../img/coca11.jpg';
+import Curso12 from '../../img/coca12.jpg';
+import Curso13 from '../../img/proximamente.avif';
+import Curso14 from '../../img/proximamente.avif';
+import Curso15 from '../../img/proximamente.avif';
+import Curso16 from '../../img/proximamente.avif';
+import Curso17 from '../../img/proximamente.avif';
+import Curso18 from '../../img/coca18.jpg';
+import Curso19 from '../../img/coca19.jpg';
+import Curso20 from '../../img/proximamente.avif';
 
 
 export default function Cursosgallery() {
