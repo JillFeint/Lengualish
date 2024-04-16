@@ -174,10 +174,10 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(85, 192, 228);
+  background-color: rgb(53, 117, 228);
   width: 100%;
   height: 100vh;
-  border-radius: 80% 80% 80% 80%;
+  border-radius: 10% 95% 10% 95%;
   margin-bottom: 2em;
 }
 
