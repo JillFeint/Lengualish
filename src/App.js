@@ -15,7 +15,7 @@ import FooterRedes from './components/footerRedes';
 // import ProfileUser from './components/userPerfil/profileUser';
 // import Cursosgallery from './components/cursos/cursosgallery';
 import './components/cursos/cursosgallery.css'
-import DiseñoCurso from './components/template-cursos/diseñoCurso';
+// import DiseñoCurso from './components/template-cursos/diseñoCurso';
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
