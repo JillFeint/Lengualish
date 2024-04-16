@@ -41,3 +41,6 @@
 //     const funcSwitchC1 = () => {
 //       switchC1Way(false);
 //     };
+
+// Colocar en la galeria de juan en el diseño de cursos, el diseño del animal con el digamos toBe y 
+// luego que aparezca la imagen con todo lo del verbo toBeChecked.

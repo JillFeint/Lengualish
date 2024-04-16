@@ -3,6 +3,8 @@ import { useState } from 'react';
 import FooterRedes from '../footerRedes'
 import './way.css'
 import Ningles from '../../img/nivelesingls.png'
+import SectionMain from '../sectionMain';
+
 
 
 export default function Way() {
@@ -11,6 +13,11 @@ export default function Way() {
   const [showB1Way, switchB1Way] = useState(false);
   const [showB2Way, switchB2Way] = useState(false);
   const [showC1Way, switchC1Way] = useState(false);
+  const [showVocabWay, switchVocabWay] = useState(false); 
+  const [showGramWay, switchGramWay] = useState(false); 
+  const [showSintWay, switchSintWay] = useState(false); 
+  const [showVisualLearnWay, switchVisualLearnWay] = useState(false); 
+  const [showSoundLearnWay, switchSoundLarnWay] = useState(false); 
   
   const funcSwitchA1 = () => {
     switchA1Way(true);
@@ -47,6 +54,41 @@ export default function Way() {
     switchB2Way(false);
     switchC1Way(true);
   };
+  const funcSwitchVocab = () => {
+    switchVocabWay(true);
+    switchGramWay(false);
+    switchSintWay(false);
+    switchVisualLearnWay(false);
+    switchSoundLarnWay(false);
+  };
+  const funcSwitchGram = () => {
+    switchVocabWay(false);
+    switchGramWay(true);
+    switchSintWay(false);
+    switchVisualLearnWay(false);
+    switchSoundLarnWay(false);
+  };
+  const funcSwitchSint = () => {
+    switchVocabWay(false);
+    switchGramWay(false);
+    switchSintWay(true);
+    switchVisualLearnWay(false);
+    switchSoundLarnWay(false);
+  };
+  const funcSwitchVisualLearn = () => {
+    switchVocabWay(false);
+    switchGramWay(false);
+    switchSintWay(false);
+    switchVisualLearnWay(true);
+    switchSoundLarnWay(false);
+  }; 
+  const funcSwitchSoundLarnWay = () => {
+    switchVocabWay(false);
+    switchGramWay(false);
+    switchSintWay(false);
+    switchVisualLearnWay(false);
+    switchSoundLarnWay(true);
+  };
   return (
 <>
   <header className='main-header'>
@@ -55,16 +97,30 @@ export default function Way() {
   <div className='way-container'>
   <aside className='way-aside--left'>
     <label className='way-label' htmlFor="">Rutas de aprendizaje</label>
-    <button className="way-btns--left">Vocabulario</button>
-    <button className="way-btns--left">Gramatica</button>
-    <button className="way-btns--left">Sintaxis</button>
-    <button className="way-btns--left">Ruta aprendizaje visual</button>
-    <button className="way-btns--left">Ruta aprendizaje auditivo</button>
+    <button className="way-btns--left" onClick={funcSwitchVocab}>Vocabulario</button>
+    <button className="way-btns--left" onClick={funcSwitchGram}>Gramatica</button>
+    <button className="way-btns--left" onClick={funcSwitchSint}>Sintaxis</button>
+    <button className="way-btns--left" onClick={funcSwitchVisualLearn}>Ruta aprendizaje visual</button>
+    <button className="way-btns--left" onClick={funcSwitchSoundLarnWay}>Ruta aprendizaje auditivo</button>
   </aside>
   <div className='way-test'> 
-    <div className="waygridcenter">1</div>
-    <div className="waygridcenter">2</div>
-    <div className="waygridcenter">3</div>
+    <div className="waygridcenter">
+      <p className={`way-text--a1 ${showVocabWay ? '' : 'way-hidden-text'}`}>
+        1
+      </p>
+      <p className={`way-text--a1 ${showGramWay ? '' : 'way-hidden-text'}`}>
+        <SectionMain />
+      </p>
+      <p className={`way-text--a1 ${showSintWay ? '' : 'way-hidden-text'}`}>
+        3
+      </p>
+      <p className={`way-text--a1 ${showVisualLearnWay ? '' : 'way-hidden-text'}`}>
+        4
+      </p>
+      <p className={`way-text--a1 ${showSoundLearnWay ? '' : 'way-hidden-text'}`}>
+        5
+      </p>
+    </div>
   </div>
   <aside className='way-aside--right'>
     <img className='way-img--ningles' src={Ningles} alt="imagen niveles ingles " />
@@ -268,7 +324,49 @@ export default function Way() {
         participar en debates y conversaciones, y tomar clases o cursos de inglés avanzado. La práctica 
         regular y la dedicación te ayudarán a mejorar tu nivel de inglés y a alcanzar el nivel B2 con éxito.
         </p>
-      <p className={`way-text--c1 ${showC1Way ? '' : 'way-hidden-text'}`}>aquí van las ruta C1</p>
+      <p className={`way-text--c1 ${showC1Way ? '' : 'way-hidden-text'}`}>
+      <br />
+      Al alcanzar el nivel C1 de inglés, estarás en un nivel avanzado, lo que significa que 
+      tendrás un dominio sólido del idioma que te permitirá comunicarte con fluidez y comprender una amplia variedad de textos y discursos complejos. Aquí hay una descripción más detallada de lo que necesitas para alcanzar el nivel C1:
+      <br /><br />
+      Vocabulario avanzado y especializado:<br /><br />
+
+      Tener un amplio y variado vocabulario que incluya términos especializados en áreas como negocios, tecnología, ciencia, cultura, etc. <br />
+      Comprender y utilizar expresiones idiomáticas y coloquiales con naturalidad y precisión.
+      Ser capaz de comprender y emplear vocabulario técnico y académico en campos específicos de interés.
+      <br /><br />
+      Gramática avanzada y precisa:<br /><br />
+
+      Dominar los tiempos verbales en una variedad de contextos y manejar estructuras gramaticales complejas con precisión.
+      Utilizar con facilidad tiempos verbales avanzados como el pasado perfecto continuo, futuro perfecto, condicionales mixtos, entre otros.
+      Entender y aplicar reglas gramaticales más complejas, como el uso correcto de los condicionales, el discurso reportado y la voz pasiva.
+      <br /><br />
+      Comprensión auditiva avanzada:<br /><br />
+
+      Comprender discursos y debates complejos en una amplia variedad de temas, incluso si incluyen acentos regionales o jerga específica.
+      Seguir programas de radio, podcasts, entrevistas y discursos con facilidad, captando tanto los puntos principales como los detalles.
+      Entender discursos extensos y complejos en contextos académicos, profesionales o culturales.
+      <br /><br />
+      Expresión oral fluida y sofisticada:<br /><br />
+
+      Participar activamente en debates y conversaciones sobre temas complejos, mostrando habilidad para argumentar y debatir con claridad y coherencia.
+      <br />Utilizar un lenguaje preciso y expresivo para expresar opiniones, emociones y puntos de vista con sofisticación.
+      <br />Hacer presentaciones largas y detalladas sobre temas especializados, manteniendo la atención del público y utilizando recursos visuales de manera efectiva.
+      <br /><br />
+      Comprensión de lectura avanzada:
+      <br /><br />
+      Leer y comprender textos extensos y complejos, como artículos académicos, informes técnicos y literatura especializada.
+      <br />Identificar matices de significado, tono y estilo en textos escritos de manera sofisticada, así como entender las implicaciones subyacentes.
+      <br />Evaluar críticamente el contenido del texto, analizando argumentos y evidencia de manera profunda.
+      <br /><br />
+      Escritura avanzada y sofisticada:
+      <br /><br />
+      Escribir textos claros, bien estructurados y coherentes, como ensayos académicos, informes profesionales y artículos de opinión.
+      <br />Utilizar una amplia gama de vocabulario y estructuras gramaticales para expresar ideas con precisión, elegancia y estilo.
+      Argumentar de manera persuasiva y convincente, respaldando tus puntos de vista con evidencia sólida y ejemplos relevantes.
+      Para alcanzar el nivel C1, es fundamental seguir practicando y exponiéndote al idioma a través de una variedad de recursos y actividades, como la lectura de textos complejos, la participación en debates y discusiones, la escritura de textos avanzados y la interacción con hablantes nativos.  <br />La práctica regular y la dedicación te ayudarán a mejorar tu nivel de inglés y a alcanzar el nivel C1 con éxito.
+      <br />
+      </p>
       <p className='way-text--intro'><br />Para ver lo minimo necesario que debes tener en 
       cada nivel, presiona el botón del nivel que deseas alcanzar.<br /><br />
        </p>
