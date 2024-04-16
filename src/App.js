@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import './App2.css';
 import './components/usuario/perfil.css';
-import './components/template-cursos/diseñoCurso.css'
+// import './components/template-cursos/diseñoCurso.css'
 import Header from './components/header';
 import Section1 from './components/section1';
 import Section2 from './components/section2';
@@ -30,7 +30,7 @@ function App() {
     {!showLogin && <Carrusel />}
     {!showLogin && <Section2 />}
     {!showLogin && <Section1 />}
-    <DiseñoCurso />
+    {/* <DiseñoCurso /> */}
     {/* <Perfil /> */}
     {!showLogin && <Footer />}
     {!showLogin && <FooterRedes/>}
