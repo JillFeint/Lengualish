@@ -95,9 +95,9 @@
     outline: none;
     border: 1.5px solid aliceblue;
 }
-/* .register-input-new:hover {
+.register-input-new:hover {
   border: 1.5px solid rgb(21, 0, 255);
-} */
+}
 .register-user-label {
   position: absolute;
   left: 15px;
