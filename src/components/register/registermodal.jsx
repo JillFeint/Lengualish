@@ -12,13 +12,21 @@ export default function RegisterModal() {
   <div className="modal-login">
     <form className="form-format" onSubmit={regiStartLogin}>
       <div className="place-left">
+        <div className="register-title-principal">
+          <h2 className="title-form">Registro a la plataforma</h2>
+        </div>
         <div className="inputs-dimension-register">
-          <div className="register-title-principal">
-            <h2 className="title-form">Registro a la plataforma</h2>
+          <div className="register-input-group">
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="name-input--modal-send"/>
+            <label className="register-user-label">Nombre</label>
           </div>
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new"/>
-            <label className="register-user-label">First Name</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="last-input--modal-send"/>
+            <label className="register-user-label">Apellido</label>
+          </div>
+          <div className="register-input-group">
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
+            <label className="register-user-label">Nombre de usuario</label>
           </div>
             {/* <label className="labels-register" for="">Nombres </label>
               <input className="input-left" id="name-input--modal-send" type="text" placeholder="Ingrese sus nombres °‿‿°"/>
@@ -34,13 +42,24 @@ export default function RegisterModal() {
       </div> {/* <!-- place-left --> */}
       <div className="place-right">
           <div className="inputs-dimension-registerR">
-        {/* <h2 className="title-form-righ">Ingreso a la plataforma</h2> */}
-          <label className="labels-register" for="">Contraseña </label>
+          <div className="register-input-group">
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
+            <label className="register-user-label">Contraseña</label>
+          </div>
+          <div className="register-input-group">
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
+            <label className="register-user-label">Nombre de usuario</label>
+          </div>
+          <div className="register-input-group">
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
+            <label className="register-user-label">Nombre de usuario</label>
+          </div>
+          {/* <label className="labels-register" for="">Contraseña </label>
             <input className="input-right" id="pass-input--modal-send" type="password" placeholder="Ingrese su contraseña  🔒"/>
           <label className="labels-register" for="">Correo </label>
             <input className="input-right" id="mail-input--modal-send" type="text" placeholder="Ingrese su correo  °‿‿°"/>
           <label className="labels-register" for="">Ciudad </label>
-            <input className="input-right" id="city-input--modal-send" type="text" placeholder="Ingrese su ciudad °‿‿°"/>
+            <input className="input-right" id="city-input--modal-send" type="text" placeholder="Ingrese su ciudad °‿‿°"/> */}
         </div>{/* <!-- <p id="access-parr">T</p> --> */}
       </div> {/* <!-- place-right --> */}
     </form>
