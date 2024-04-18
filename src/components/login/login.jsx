@@ -37,7 +37,9 @@ export default function Login() {
   const [resShowLogin, ResSetShowLogin] = useState(false);
 
   const regisUsuariosClick = () => {
-    ResSetShowLogin(true);
+    setTimeout(() => {
+      ResSetShowLogin(true);
+    }, 600); // 600 milisegundos
   };
   return (
 <>   
@@ -133,7 +135,7 @@ export default function Login() {
 {resShowLogin &&   <RegisterModal />}
 {/* <Way /> */}
 {/* <Pqrs /> */}
-<ProfileUser />
+< ProfileUser />
 </>   
   )
 }

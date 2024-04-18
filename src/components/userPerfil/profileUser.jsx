@@ -1,11 +1,17 @@
-import React from 'react'
-import './profileUser.css'
-import { Link } from 'react-router-dom';
+import './profileUser.css';
+import React, { useState } from 'react';
+import Perfil from '../usuario/perfil';
 
 export default function ProfileUser() {
+  const [mostrarPerfilUser, setMostrarPerfilUser] = useState(false);
+
+  const profileUserClick = () => {
+    setMostrarPerfilUser(true);
+    console.log("ejecuto")
+  };
   return (
 <>
-<div className='profileUser-main'>
+<div className={`profileUser-main ${mostrarPerfilUser ? 'oculto-profile-user' : ''}`}>
   <div className="profileUser-container">
     <div className="profileUser-divTexto">
       <h3 className="profileUser-tituloOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -15,11 +21,9 @@ export default function ProfileUser() {
           error debitis asperiores vel dolorem magni amet culpa pariatur obcaecati adipisci?</p>
     </div>
     <div className="profileUser-contenedorBig">
-    <Link to="../usuario/perfil.jsx">
-      <div className="caja-profileUser profileUser-c1">
+      <div className="caja-profileUser profileUser-c1" onClick={profileUserClick}>
         contenedor 1
       </div>
-    </Link> 
       <div className="caja-profileUser profileUser-c2">
         contenedor 2
       </div>
@@ -35,6 +39,7 @@ export default function ProfileUser() {
     </div>
   </div>
 </div>
+{mostrarPerfilUser && <Perfil />} 
 </>
   )
 }
