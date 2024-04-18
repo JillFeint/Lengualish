@@ -17,16 +17,16 @@ export default function RegisterModal() {
         </div>
         <div className="inputs-dimension-register">
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="name-input--modal-send"/>
-            <label className="register-user-label">Nombre</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="name-input--modal-send"/>
+            <label className="register-user-label register-user-fucion">Nombre</label>
           </div>
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="last-input--modal-send"/>
-            <label className="register-user-label">Apellido</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="last-input--modal-send"/>
+            <label className="register-user-label register-user-fucion">Apellido</label>
           </div>
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
-            <label className="register-user-label">Nombre de usuario</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="login-input--modal--send"/>
+            <label className="register-user-label register-user-fucion">Nombre de usuario</label>
           </div>
             {/* <label className="labels-register" for="">Nombres </label>
               <input className="input-left" id="name-input--modal-send" type="text" placeholder="Ingrese sus nombres °‿‿°"/>
@@ -43,16 +43,16 @@ export default function RegisterModal() {
       <div className="place-right">
           <div className="inputs-dimension-registerR">
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
-            <label className="register-user-label">Contraseña</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="pass-input--modal-send"/>
+            <label className="register-user-label register-user-fucion">Contraseña</label>
           </div>
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
-            <label className="register-user-label">Nombre de usuario</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="mail-input--modal-send"/>
+            <label className="register-user-label register-user-fucion">Correo</label>
           </div>
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new" id="login-input--modal--send"/>
-            <label className="register-user-label">Nombre de usuario</label>
+            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="city-input--modal-send"/>
+            <label className="register-user-label register-user-fucion">Ciudad</label>
           </div>
           {/* <label className="labels-register" for="">Contraseña </label>
             <input className="input-right" id="pass-input--modal-send" type="password" placeholder="Ingrese su contraseña  🔒"/>
