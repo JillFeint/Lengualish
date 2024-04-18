@@ -212,10 +212,10 @@ input:checked + .sliderFall:after {
   right: 0;
 }
 
-/* Boton submit */
+/* Boton submit
 .btn-subResRight{
     margin-left: 1.6em;
-}
+} */
 
 /* estos son los ahref de recuperación */
 .a-register{

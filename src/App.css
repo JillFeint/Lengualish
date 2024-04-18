@@ -612,7 +612,6 @@ body{
 
 /* Footer redes */
 .footerRedes {
-  position: absolute;
   width: 100%;
   height: 4em;
   background-color: #00ABF4;

@@ -5,6 +5,7 @@ import logoboots from '../../img/logoboots.png'
 import verboTobe1 from '../../img/diseño-curso/verbo-tobe-1.jpg';
 import verbpTobe2 from '../../img/diseño-curso/verbo-tobe-2.jpg';
 import verboTobe3 from '../../img/diseño-curso/verbo-tobe-3.jpg';
+import './diseñoCurso.css'
 
 export default function DiseñoCurso() {
     return (
