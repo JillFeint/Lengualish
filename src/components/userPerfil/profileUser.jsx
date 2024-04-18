@@ -1,5 +1,6 @@
 import React from 'react'
 import './profileUser.css'
+import { Link } from 'react-router-dom';
 
 export default function ProfileUser() {
   return (
@@ -14,9 +15,11 @@ export default function ProfileUser() {
           error debitis asperiores vel dolorem magni amet culpa pariatur obcaecati adipisci?</p>
     </div>
     <div className="profileUser-contenedorBig">
+    <Link to="../usuario/perfil.jsx">
       <div className="caja-profileUser profileUser-c1">
         contenedor 1
       </div>
+    </Link> 
       <div className="caja-profileUser profileUser-c2">
         contenedor 2
       </div>

@@ -3,8 +3,9 @@ import { useState } from 'react';
 import './loginmodal.css';
 import cocologin from '../../img/cocoright.jpg';
 import RegisterModal from '../register/registermodal';
-import Way from '../way/way'
+// import Way from '../way/way'
 // import Pqrs from '../pqrs/pqrs'
+import ProfileUser from '../userPerfil/profileUser';
 
 
 export default function Login() {
@@ -130,8 +131,9 @@ export default function Login() {
   </div>   {/* modal login */}
 </div> {/* contenedor */}
 {resShowLogin &&   <RegisterModal />}
-<Way />
+{/* <Way /> */}
 {/* <Pqrs /> */}
+<ProfileUser />
 </>   
   )
 }
