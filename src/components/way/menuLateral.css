@@ -11,6 +11,9 @@
     align-items: center;
     color: #ffff;
 }
+.boton-lateral{
+    cursor: pointer;
+}
 .container-lateral{
     width: 240px;
     background-color: #011627;

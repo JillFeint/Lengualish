@@ -95,7 +95,7 @@ export default function Way() {
   return (
     <>
     <header className='header-lateral'>
-      <FaBars onClick={() => setShowNav(!showNav)}/>
+      <FaBars  className='boton-lateral' onClick={() => setShowNav(!showNav)}/>
     </header>
     <MenuLateral show={showNav}/>
   <div className='way-container'>
