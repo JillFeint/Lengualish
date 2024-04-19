@@ -97,7 +97,7 @@ export default function Way() {
     <header className='header-lateral'>
       <FaBars onClick={() => setShowNav(!showNav)}/>
     </header>
-    {showNav && <MenuLateral />}
+    <MenuLateral show={showNav}/>
   <div className='way-container'>
   <aside className='way-aside--left'>
     <label className='way-label' htmlFor="">Rutas de aprendizaje</label>

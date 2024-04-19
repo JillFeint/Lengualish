@@ -18,7 +18,7 @@
     height: 95vh;
     padding: 0 30px;
     left: -100%;
-    transition: all 1s;
+    transition: all 0.6s;
 }
 .container-lateral.active{
     left: 0;

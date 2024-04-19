@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function MenuLateral() {
+export default function MenuLateral({show}) {
     return (
         <>
-        <div className='container-lateral active'>
+        <div className={show ? 'container-lateral active' : 'container-lateral'}>
             <ul className='ul-lateral'>
                 <li>
                     <a href="/">Home</a>
