@@ -1,12 +1,24 @@
 .btnRedesWhatsapp:hover {
-  background-color: #3ae871f4;
+  background: #00373b;
+  background: -moz-linear-gradient(45deg, #00373b 0%, #005f63 25%, #00878f 50%, #49beaa 75%, #9fe2bf 100%);
+  background: -webkit-linear-gradient(45deg, #00373b 0%, #005f63 25%, #00878f 50%, #49beaa 75%, #9fe2bf 100%);
+  background: linear-gradient(45deg, #00373b 0%, #005f63 25%, #00878f 50%, #49beaa 75%, #9fe2bf 100%);
 }
 .btnRedesFacebook:hover {
-  background-color: rgb(36, 51, 255);
+  background: #003366;
+  background: -moz-linear-gradient(45deg, #003366 0%, #004d80 25%, #2e6f9e 50%, #6d98ba 75%, #a8d0e6 100%);
+  background: -webkit-linear-gradient(45deg, #003366 0%, #004d80 25%, #2e6f9e 50%, #6d98ba 75%, #a8d0e6 100%);
+  background: linear-gradient(45deg, #003366 0%, #004d80 25%, #2e6f9e 50%, #6d98ba 75%, #a8d0e6 100%);  
 }
 .btnRedesInstagram:hover {
-  background: #FF004D;
+  background: #bc1888;
+  background: -moz-linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
+  background: -webkit-linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
+  background: linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
 }
 .btnRedesYoutube:hover {
-  background-color: rgb(255, 108, 174);
+  background: #990000;
+  background: -moz-linear-gradient(45deg, #990000 0%, #cc0000 25%, #ff3333 50%, #ff6666 75%, #ff9999 100%);
+  background: -webkit-linear-gradient(45deg, #990000 0%, #cc0000 25%, #ff3333 50%, #ff6666 75%, #ff9999 100%);
+  background: linear-gradient(45deg, #990000 0%, #cc0000 25%, #ff3333 50%, #ff6666 75%, #ff9999 100%);
 }
