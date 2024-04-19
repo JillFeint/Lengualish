@@ -11,9 +11,9 @@ export default function Section2() {
           <article className="art-left">
             <br />
             <p> ¡Guau, chicos! ¡Echen un vistazo a esta 
-              nueva plataforma de aprendizaje de inglés que acabo de encontrar! <br />
+              nueva plataforma de aprendizaje de inglés que acabo de encontrar! <br /><br />
               Es una pataforma y aplicación súper buea que te ayuda a aprender 
-              inglés de una manera divertida y gratis. <br /><br /><br />
+              inglés de una manera divertida y gratis. <br /><br />
               Ofrece muchas lecciones y ejercicios adaptados a diferentes
                niveles, desde principiantes hasta avanzados. <br />
               Además, te permite crear un perfil personalizado para seguir tu progreso.
@@ -61,7 +61,7 @@ export default function Section2() {
           </article>
         </div>
       </section>
-      <section className="section-art-separate">
+      {/* <section className="section-art-separate">
         <div className="art-separate">
           <article>
             <div>
@@ -86,8 +86,7 @@ export default function Section2() {
             </div>
           </article>
         </div>
-      </section>
-      
+      </section> */}
     </>
   );
 }
