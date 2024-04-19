@@ -12,6 +12,7 @@ import Carrusel from './components/carousel/carrusel';
 import FooterRedes from './components/footerRedes';
 import './components/cursos/cursosgallery.css'
 import RegisterModal from './components/register/registermodal';
+import './components/footerRedes.css'
 
 
 function App() {
