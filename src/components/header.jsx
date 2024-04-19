@@ -12,21 +12,21 @@ export default function Header({ onUsuariosClick }) {
             <div></div>
           </div>
         </button>
-        <button className="c-button c-button--gooey"> Calificaciones
+        <button className="c-button c-button--gooey"> Donaciones
           <div className="c-button__blobs">
             <div></div>
             <div></div>
             <div></div>
           </div>
         </button>
-        <button className="c-button c-button--gooey"> Cursos
+        <button className="c-button c-button--gooey"> Contactenos
           <div className="c-button__blobs">
             <div></div>
             <div></div>
             <div></div>
           </div>
         </button>
-        <button className="c-button c-button--gooey" onClick={onUsuariosClick}> Usuarios
+        <button className="c-button c-button--gooey" onClick={onUsuariosClick}> Usuario
           <div className="c-button__blobs">
             <div></div>
             <div></div>

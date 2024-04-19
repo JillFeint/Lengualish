@@ -1,5 +1,4 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './loginmodal.css';
 import cocologin from '../../img/cocoright.jpg';
 import RegisterModal from '../register/registermodal';
@@ -26,7 +25,7 @@ export default function Login() {
       document.getElementById("access-parr").innerHTML=`Esperando que no se le pudra el dedo ${user}, ${pass}`;
     }
     else {
-      document.getElementById("access-parr").innerHTML=`Estas no son las credenciales de acceso  ${user}, ${pass}`;
+      document.getElementById("access-parr").innerHTML=`Datos de ingreso errados`;
     }
   }
   

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import './App2.css';
 import './components/usuario/perfil.css';
-// import './components/template-cursos/diseñoCurso.css'
 import Header from './components/header';
 import Section1 from './components/section1';
 import Section2 from './components/section2';
@@ -11,31 +10,32 @@ import Login from './components/login/login';
 import SectionMain from './components/sectionMain';
 import Carrusel from './components/carousel/carrusel';
 import FooterRedes from './components/footerRedes';
-// import Perfil from './components/usuario/perfil';
-// import ProfileUser from './components/userPerfil/profileUser';
-// import Cursosgallery from './components/cursos/cursosgallery';
 import './components/cursos/cursosgallery.css'
-// import DiseñoCurso from './components/template-cursos/diseñoCurso';
+import RegisterModal from './components/register/registermodal';
+
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
+  const [mostrarRegisGet, changeShowRegisGet] = useState(false);
 
   const handleUsuariosClick = () => {
     setShowLogin(true);
   };
+  const showRegisterGetModal = () => {
+    changeShowRegisGet(true);
+  };
   return (
-    <div className="container12">
-    {!showLogin && <Header onUsuariosClick={handleUsuariosClick} />}
-    {!showLogin && <SectionMain />}
-    {!showLogin && <Carrusel />}
-    {!showLogin && <Section2 />}
-    {!showLogin && <Section1 />}
-    {/* <DiseñoCurso /> */}
-    {/* <Perfil /> */}
-    {!showLogin && <Footer />}
-    {!showLogin && <FooterRedes/>}
-    {showLogin &&   <Login />}
-  </div>
+    <div className="app-container--main">
+      {!showLogin && !mostrarRegisGet && <Header onUsuariosClick={handleUsuariosClick} />}
+      {!showLogin && !mostrarRegisGet && <SectionMain onRegisClick={showRegisterGetModal} />}
+      {!showLogin && !mostrarRegisGet && <Carrusel />}
+      {!showLogin && !mostrarRegisGet && <Section2 />}
+      {!showLogin && !mostrarRegisGet && <Section1 />}
+      {!showLogin && !mostrarRegisGet && <Footer />}
+      {!showLogin && !mostrarRegisGet && <FooterRedes />}
+      {showLogin && <Login />}
+      {mostrarRegisGet && <RegisterModal />}
+    </div>
   );
 }
 

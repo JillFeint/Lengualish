@@ -1,16 +1,17 @@
-import React from 'react'
-import MainLogo from '../img/crobootsderech.png'
+import React from 'react';
+import MainLogo from '../img/crobootsderech.png';
 
-export default function SectionMain() {
+
+export default function SectionMain({ onRegisClick }) {
   return (
-    <>
-    <div className='container-component--main'>
+  <>
+  <div className={`container-component--main`}>
     <section className='section-main'>
       <div className='articles-main--left'>
         <h2 className='main-title'>Habla idiomas con confianza</h2>
           <p className='main-text'>Aprendizaje de idiomas a tu ritmo, con profesores de confianza.</p> 
-          <button className="cssbuttons-io-button">
-            Get started
+          <button className="cssbuttons-io-button" onClick={onRegisClick}>
+            ¡Registrate ya!
             <div className="icon">
               <svg
                 height="24"
@@ -34,6 +35,7 @@ export default function SectionMain() {
       </div>
   </section>
   </div>
+
   </>
   )
 }

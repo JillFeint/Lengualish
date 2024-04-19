@@ -258,6 +258,9 @@ body{
   display: flex;
   justify-content: center;
 }
+.hiddencontainer-component--main{
+  display: none;
+}
 .section-main{
   display: flex;
   justify-content: center;

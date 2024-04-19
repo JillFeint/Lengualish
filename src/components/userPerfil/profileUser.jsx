@@ -6,7 +6,6 @@ import Way from '../way/way';
 import Pqrs from '../pqrs/pqrs'
 
 export default function ProfileUser() {
-  // const [nonePerfilUser, noneMostrarPerfilUser] = useState(false);
   const [mostrarPerfilUser, setMostrarPerfilUser] = useState(false);
   const [mostrarCursos, setMostrarCursos]  = useState(false);
   const [mostrarWay, setMostrarWay]  = useState(false);
