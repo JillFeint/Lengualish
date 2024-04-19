@@ -8,10 +8,11 @@ export default function SectionMain({ onRegisClick }) {
   <div className={`container-component--main`}>
     <section className='section-main'>
       <div className='articles-main--left'>
-        <h2 className='main-title'>Habla idiomas con confianza</h2>
-          <p className='main-text'>Aprendizaje de idiomas a tu ritmo, con profesores de confianza.</p> 
+        <h2 className='main-title'>Habla ingles con confianza</h2>
+          <p className='main-text'>Aprende ingles a tu ritmo, sin presión, crea y elige tu proceso a tu gusto, disfruta de este, 
+          pero lo más importante, es gratis.</p> 
           <button className="cssbuttons-io-button" onClick={onRegisClick}>
-            ¡Registrate ya!
+            ¡Registrate ahora!
             <div className="icon">
               <svg
                 height="24"

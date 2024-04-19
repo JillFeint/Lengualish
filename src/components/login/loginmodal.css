@@ -462,3 +462,12 @@ input:checked + .sliderFall:after {
   background-color: rgba(219, 219, 219, 0.466);
   backdrop-filter: blur(4px);
 }
+
+#access-parr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  width: 23vw;
+  padding-top: 0.3em;
+}

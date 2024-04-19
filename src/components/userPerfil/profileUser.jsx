@@ -36,9 +36,11 @@ export default function ProfileUser() {
     <div className="profileUser-divTexto">
       <h3 className="profileUser-tituloOne">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         vero magnam assumenda maxime, dicta facere dolorem quibusdam ut iure.</h3>
+        <br />
         <p className="profileUser-parrafoOne">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda 
           libero, sed quidem, soluta nobis praesentium maxime veniam, consequuntur 
           error debitis asperiores vel dolorem magni amet culpa pariatur obcaecati adipisci?</p>
+          <br />
     </div>
     <div className="profileUser-contenedorBig">
       <div className="caja-profileUser profileUser-c1" onClick={profileUserClick}>

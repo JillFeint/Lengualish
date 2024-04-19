@@ -16,13 +16,13 @@ export default function Login() {
     console.log(pass)
   
     if (user === "Moncada" && pass === "bruno2015"){
-      document.getElementById("access-parr").innerHTML=`Esperando operación de la nariz ${user}, ${pass}`;
+      document.getElementById("access-parr").innerHTML=`Esperando operación de la nariz.`;
     }
     else if (user === "Angel" && pass === "2024"){
-      document.getElementById("access-parr").innerHTML=`Esperando no morir por la grasa ${user}, ${pass}`;
+      document.getElementById("access-parr").innerHTML=`Esperando no morir por la grasa.`;
     }
     else if (user === "Ballesteros" && pass === "karbuncol"){
-      document.getElementById("access-parr").innerHTML=`Esperando que no se le pudra el dedo ${user}, ${pass}`;
+      document.getElementById("access-parr").innerHTML=`Esperando que no se le pudra el dedo.`;
     }
     else {
       document.getElementById("access-parr").innerHTML=`Datos de ingreso errados`;
@@ -124,7 +124,7 @@ export default function Login() {
       </button>    
       </div> {/*  Botones redes sociales */}
       <div>
-      <p id="access-parr">T</p>
+      <p id="access-parr"></p>
       </div>
     </div>         {/* form */}
   </div>   {/* modal login */}

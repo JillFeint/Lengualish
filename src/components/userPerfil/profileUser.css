@@ -1,22 +1,15 @@
-/* body {
-  background-color: #FFFFFF;
-  font-family: "Amatic SC", cursive;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-} */
 .profileuser-hidden{
   display: none;
 }
 .profileUser-main{
-  background-color: rgb(248, 154, 12);
+  /* background-color: rgb(248, 154, 12); */
   display: flex;
   justify-content: center;
   align-content: center;
   width: 100%;
 }
 .profileUser-container{
-  background-color: rgb(223, 41, 41);
+  /* background-color: rgb(223, 41, 41); */
   display: flex;
   justify-content: center;
   align-content: center;
@@ -25,7 +18,7 @@
   margin-top: 4%;
 }
 .profileUser-divTexto {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 100%;
 }
 .profileUser-tituloOne,
@@ -34,7 +27,7 @@
   text-align: center;
 }
 .profileUser-contenedorBig {
-  background-color: #F6F6F6;
+  background-color: aliceblue;
   border-radius: 5px;
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
   /* max-width: 59em; */
