@@ -44,12 +44,9 @@ export default function Section2() {
       </section>
       <section className="main-body-three">
         <div className="articles-three">
-          <article className="art-left">
+          <article className="art-left"><br />
             <p>¡Hey chicos, acabo presentar la evaluación de un curso en la plataforma de aprendizaje de inglés!<br /> <br />
             Bueno, parece que mi nivel de competencia en inglés está justo en el punto intermedio del MCER. 
-            <br /><br />
-            La plataforma me 
-            dio consejos útiles para mejorar y enfocar mis áreas débiles.
             <br /><br />
 
             Además, descubrí que tiene un blog donde discuten sugerencias para cambiar las lecciones o agregar nuevas,

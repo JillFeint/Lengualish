@@ -28,11 +28,10 @@
         <div className='footer-box-one'>
           <h2 className='titleFooter titleFooterOne' >Lengualish</h2>
           <h5 className='titleInfoLengulish'>Bienvenido a Lengualish, 
-          tu plataforma gratuita para aprender inglés. Nuestro objetivo 
+          tu plataforma gratuita para aprender inglés. <br /><br />Nuestro objetivo 
           es proporcionar recursos de calidad que te ayuden a mejorar 
-          tus habilidades lingüísticas en inglés de manera accesible 
-          y divertida. ¡Explora nuestro contenido y comienza tu viaje 
-          hacia el dominio del idioma inglés hoy mismo!</h5>
+          tus habilidades en inglés de manera accesible 
+          y divertida. </h5>
           {/* <div className='title-leng'>
             <h3 className='titleFooter'>Contactanos</h3>
             <button className='button-footer'>Contacto</button>
