@@ -2,12 +2,15 @@ import React from 'react'
 import { useState } from 'react';
 import FooterRedes from '../footerRedes'
 import './way.css'
+import './menuLateral.css'
 import Ningles from '../../img/nivelesingls.png'
 import SectionMain from '../sectionMain';
-
-
+import MenuLateral from './menuLateral';
+import { FaBars } from 'react-icons/fa';
 
 export default function Way() {
+  const [showNav, setShowNav] = useState(false)
+
   const [showA1Way, switchA1Way] = useState(false);
   const [showA2Way, switchA2Way] = useState(false);
   const [showB1Way, switchB1Way] = useState(false);
@@ -90,10 +93,11 @@ export default function Way() {
     switchSoundLarnWay(true);
   };
   return (
-<>
-  <header className='main-header'>
-  1
-  </header>
+    <>
+    <header className='header-lateral'>
+      <FaBars onClick={() => setShowNav(!showNav)}/>
+    </header>
+    {showNav && <MenuLateral />}
   <div className='way-container'>
   <aside className='way-aside--left'>
     <label className='way-label' htmlFor="">Rutas de aprendizaje</label>

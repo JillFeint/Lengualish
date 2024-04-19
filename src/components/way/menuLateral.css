@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-lateral{
+    padding: 30px;
+    background-color: #011627;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+.container-lateral{
+    width: 240px;
+    background-color: #011627;
+    position: absolute;
+    height: 95vh;
+    padding: 0 30px;
+    left: -100%;
+    transition: all 1s;
+}
+.container-lateral.active{
+    left: 0;
+}
+.ul-lateral{
+    padding: 0;
+}
+.ul-lateral li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+.ul-lateral li a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.ul-lateral li a:hover, .ul-lateral li a.active{
+    background-color: #172b4d;
+}
+.header-lateral svg{
+    font-size: 25px;
+}
