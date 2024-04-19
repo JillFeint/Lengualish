@@ -11,9 +11,9 @@ export default function Section2() {
           <article className="art-left">
             <br />
             <p> ¡Guau, chicos! ¡Echen un vistazo a esta 
-              nueva plataforma de aprendizaje de inglés que acabo de encontrar! <br />
+              nueva plataforma de aprendizaje de inglés que acabo de encontrar! <br /><br />
               Es una pataforma y aplicación súper buea que te ayuda a aprender 
-              inglés de una manera divertida y gratis. <br /><br /><br />
+              inglés de una manera divertida y gratis. <br /><br />
               Ofrece muchas lecciones y ejercicios adaptados a diferentes
                niveles, desde principiantes hasta avanzados. <br />
               Además, te permite crear un perfil personalizado para seguir tu progreso.
@@ -44,12 +44,9 @@ export default function Section2() {
       </section>
       <section className="main-body-three">
         <div className="articles-three">
-          <article className="art-left">
+          <article className="art-left"><br />
             <p>¡Hey chicos, acabo presentar la evaluación de un curso en la plataforma de aprendizaje de inglés!<br /> <br />
             Bueno, parece que mi nivel de competencia en inglés está justo en el punto intermedio del MCER. 
-            <br /><br />
-            La plataforma me 
-            dio consejos útiles para mejorar y enfocar mis áreas débiles.
             <br /><br />
 
             Además, descubrí que tiene un blog donde discuten sugerencias para cambiar las lecciones o agregar nuevas,
@@ -61,7 +58,7 @@ export default function Section2() {
           </article>
         </div>
       </section>
-      <section className="section-art-separate">
+      {/* <section className="section-art-separate">
         <div className="art-separate">
           <article>
             <div>
@@ -86,8 +83,7 @@ export default function Section2() {
             </div>
           </article>
         </div>
-      </section>
-      
+      </section> */}
     </>
   );
 }
