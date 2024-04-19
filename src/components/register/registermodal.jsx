@@ -43,7 +43,7 @@ export default function RegisterModal() {
       <div className="place-right">
           <div className="inputs-dimension-registerR">
           <div className="register-input-group">
-            <input required="" type="text" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="pass-input--modal-send"/>
+            <input required="" type="password" name="text" autocomplete="off" className="register-input-new register-user-fucion" id="pass-input--modal-send"/>
             <label className="register-user-label register-user-fucion">Contraseña</label>
           </div>
           <div className="register-input-group">
